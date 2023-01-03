@@ -23,6 +23,5 @@ const main = () => {
     } catch (err) {}
   })
 
-  console.log('ja;an')
 }
 main()
