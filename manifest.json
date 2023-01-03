@@ -1,0 +1,13 @@
+{
+  "name": "SARIP",
+  "description": "Sistem Akademik Rekayasa IP",
+  "version": "1.0",
+  "author": "mahasiswa",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://akademik.itb.ac.id/app/*/statusmhs"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
